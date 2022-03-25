@@ -2,13 +2,13 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Mm]emoryCaptures/
+La-couleur-de-l-ego/[Ll]ibrary/
+La-couleur-de-l-ego/[Tt]emp/
+La-couleur-de-l-ego/[Oo]bj/
+La-couleur-de-l-ego/[Bb]uild/
+La-couleur-de-l-ego/[Bb]uilds/
+La-couleur-de-l-ego/[Ll]ogs/
+La-couleur-de-l-ego/[Mm]emoryCaptures/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
