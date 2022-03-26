@@ -20,6 +20,11 @@ public class bullet : MonoBehaviour
         {
             enemy.TakeDamage(damage);
         }
+        BigFishDamage bigFish = hitInfo.GetComponent<BigFishDamage>();
+        if (bigFish != null)
+        {
+            bigFish.TakeDamage(damage);
+        }
         Destroy(gameObject);
     }
 }
