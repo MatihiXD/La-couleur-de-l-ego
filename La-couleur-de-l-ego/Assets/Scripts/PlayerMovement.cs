@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 velocity = Vector3.zero;
     public Animator animator;
     public SpriteRenderer spriteRenderer;
+    private bool isRotated = false;
 
     void FixedUpdate()
     {
@@ -29,10 +30,12 @@ public class PlayerMovement : MonoBehaviour
 
     void Flip(float _velocity)
     {
-        if (_velocity > 0.1f) {
-            spriteRenderer.flipX = false;
-        } else if (_velocity < -0.1f) {
-            spriteRenderer.flipX = true;
+        if (_velocity > 0.1f && isRotated == false) {
+            transform.Rotate(0f, 180f, 0f);
+            isRotated = true;
+        } else if (_velocity < -0.1f && isRotated == true) {
+            transform.Rotate(0f, 180f, 0f);
+            isRotated = false;
         }
     }
 }
