@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
 
     void Die()
     {
+        Debug.Log("You died");
         Application.Quit();
     }
 }
