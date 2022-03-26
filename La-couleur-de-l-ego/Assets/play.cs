@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class play : MonoBehaviour
 {
-    public void Start()
+    public void StartGame()
 	{
-		SceneManager.LoadScene("Scenes/Map");
+	    SceneManager.LoadScene("Scenes/Map");
 	}
 }

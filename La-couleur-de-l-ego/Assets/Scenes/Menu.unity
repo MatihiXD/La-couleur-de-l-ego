@@ -459,6 +459,7 @@ GameObject:
   - component: {fileID: 1040523465}
   - component: {fileID: 1040523464}
   - component: {fileID: 1040523463}
+  - component: {fileID: 1040523466}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -531,7 +532,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1040523461}
         m_TargetAssemblyTypeName: 
         m_MethodName: 
         m_Mode: 1
@@ -581,6 +582,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1040523461}
   m_CullTransparentMesh: 1
+--- !u!114 &1040523466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040523461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c1bc70314bfa0349ad603df9ef91cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1113852231
 GameObject:
   m_ObjectHideFlags: 0
@@ -669,6 +682,7 @@ GameObject:
   - component: {fileID: 1156553896}
   - component: {fileID: 1156553895}
   - component: {fileID: 1156553894}
+  - component: {fileID: 1156553897}
   m_Layer: 5
   m_Name: Quit
   m_TagString: Untagged
@@ -741,16 +755,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: 
-        m_Mode: 5
+      - m_Target: {fileID: 1156553897}
+        m_TargetAssemblyTypeName: quit, Assembly-CSharp
+        m_MethodName: Quit
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: ok
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1156553895
@@ -791,6 +805,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1156553892}
   m_CullTransparentMesh: 1
+--- !u!114 &1156553897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156553892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4832bbeec2c729d43b150117d350290b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1691639947
 GameObject:
   m_ObjectHideFlags: 0
@@ -1179,7 +1205,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5649e77ae771e574a98a93fdd33ee4b1, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.6
   m_Pitch: 1
   Loop: 1
   Mute: 0
