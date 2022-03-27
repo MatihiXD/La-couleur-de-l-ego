@@ -30,6 +30,9 @@ public class Blade : MonoBehaviour
         {
             player.TakeDamage(damage);
         }
-        Destroy(gameObject);
+        if (hitInfo.GetComponent<Boss>() == null && hitInfo.GetComponent<bullet>() == null)
+        {
+            Destroy(gameObject);
+        }
     }
 }
