@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Trail : MonoBehaviour
 {
-     public int health;
+    public int health;
     void Start()
     {
         
@@ -21,6 +21,10 @@ public class Trail : MonoBehaviour
             TrailRenderer myTrailRenderer = GetComponent<TrailRenderer>();
             myTrailRenderer.startColor = Color.red;
             myTrailRenderer.endColor = Color.white;
+        } else {
+            TrailRenderer myTrailRenderer = GetComponent<TrailRenderer>();
+            myTrailRenderer.startColor = Color.white;
+            myTrailRenderer.endColor = Color.black;
         }
     }
 }

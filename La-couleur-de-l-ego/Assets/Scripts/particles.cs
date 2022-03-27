@@ -22,6 +22,9 @@ public class particles : MonoBehaviour
             Debug.Log("injured");
             ParticleSystem.MainModule settings = GetComponent<ParticleSystem>().main;
             settings.startColor = new ParticleSystem.MinMaxGradient( Color.red );
-        }   
+        }   else {
+            ParticleSystem.MainModule settings = GetComponent<ParticleSystem>().main;
+            settings.startColor = new ParticleSystem.MinMaxGradient( Color.white );
+        }
     }
 }
