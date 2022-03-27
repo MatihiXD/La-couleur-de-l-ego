@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class BossFight : MonoBehaviour
 {
+    public GameObject boss;
 
     void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.gameObject.tag == "Player")
         {
-            transform.parent.gameObject.GetComponent<Boss>().IsFighting = true;
+            boss.GetComponent<Boss>().IsFighting = true;
         }
     }
 }
