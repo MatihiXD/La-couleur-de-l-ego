@@ -7,6 +7,7 @@ public class bullet : MonoBehaviour
     public float speed = 2f;
     public int damage = 40;
     public Rigidbody2D rb;
+    public GameObject ExplosionPrefab;
     // Start is called before the first frame update
 
     //set the bullet's direction and angle to the mouse cursor's position
@@ -32,7 +33,9 @@ public class bullet : MonoBehaviour
         {
             bigFish.TakeDamage(damage);
         }
-        if (hitInfo.GetComponent<Player>() == null && hitInfo.GetComponent<FollowAreaBigFish>() == null)
+        if (hitInfo.GetComponent<Player>() == null && hitInfo.GetComponent<FollowAreaBigFish>() == null) {
+            Instantiate(ExplosionPrefab, transform.position, transform.rotation);
             Destroy(gameObject);
+        }
     }
 }
