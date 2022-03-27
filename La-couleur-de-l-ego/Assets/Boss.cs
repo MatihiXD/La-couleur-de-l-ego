@@ -18,7 +18,7 @@ public class Boss : MonoBehaviour
         }
     }
 
-    public void fight()
+    void Update()
     {
         if (IsFighting)
         {
