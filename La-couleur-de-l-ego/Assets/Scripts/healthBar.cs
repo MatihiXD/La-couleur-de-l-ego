@@ -21,7 +21,7 @@ public class healthBar : MonoBehaviour
     public void SetHealthBarValue()
     {
         int hp = GameObject.FindWithTag("Boss").GetComponent<Boss>().life;
-        float value = maxHp * 100 / hp;
+        float value = hp / maxHp;
         HealthBarImage.fillAmount = value;
     }
 }
