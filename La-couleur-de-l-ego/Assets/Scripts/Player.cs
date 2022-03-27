@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
 
     public int health = 100;
     public int damage = 10;
+    public float fireRate = 0.5f;
 
     public void TakeDamage(int damage)
     {

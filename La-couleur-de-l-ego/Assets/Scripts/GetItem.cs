@@ -6,6 +6,7 @@ public class GetItem : MonoBehaviour
 {
     public int supHealth;
     public int supDamage;
+    public float fireRate;
 
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
@@ -14,6 +15,7 @@ public class GetItem : MonoBehaviour
         {
             player.health += supHealth;
             player.damage += supDamage;
+            player.fireRate = fireRate;
             Destroy(gameObject);
         }
     }

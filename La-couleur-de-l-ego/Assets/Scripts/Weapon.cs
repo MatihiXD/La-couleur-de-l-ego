@@ -7,10 +7,15 @@ public class Weapon : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
 
-    public float fireRate = 0.5f;
+    private float fireRate = 0.5f;
 
     public bool isFiring = true;
     // Start is called before the first frame update
+
+    void Start()
+    {
+        fireRate = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>().fireRate;
+    }
 
     void Update()
     {
