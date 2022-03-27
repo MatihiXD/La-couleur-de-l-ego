@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public AudioSource BGM;
 
-    // Update is called once per frame
-    void Update()
+    public void ChangeBGM(AudioClip music)
     {
-        
+        if (BGM.clip != music) {
+            BGM.Stop();
+            BGM.clip = music;
+            BGM.Play();
+        }
     }
 }
