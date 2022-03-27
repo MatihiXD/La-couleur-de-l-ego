@@ -6,18 +6,26 @@ public class BossWeapon : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject bulletPrefab;
+
+    public float fireRate = 0.5f;
+
+    private bool isFiring = true;
+
     // Start is called before the first frame update
     void Update()
     {
-        if (gameObject.GetComponent<Boss>().IsFighting == true)
+        if (gameObject.GetComponent<Boss>().IsFighting == true && isFiring == true)
         {
-            shoot();
+            StartCoroutine(shoot());
         }
     }
 
     // Update is called once per frame
-    public void shoot()
+    public IEnumerator shoot()
     {
-        Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+            isFiring = false;
+            yield return new WaitForSeconds(fireRate);
+            isFiring = true;
     }
 }

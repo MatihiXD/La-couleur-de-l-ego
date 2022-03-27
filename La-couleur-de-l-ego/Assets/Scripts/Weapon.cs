@@ -16,7 +16,9 @@ public class Weapon : MonoBehaviour
         }
     }
 
-    void Shoot()
+
+    //wait for 0.2 seconds and then shoot
+    public void Shoot()
     {
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
     }

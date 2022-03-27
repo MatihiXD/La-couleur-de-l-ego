@@ -12,15 +12,14 @@ public class Blade : MonoBehaviour
     // Focus on the player position
     void Start()
     {
-        player =  GameObject.FindWithTag("Player");
-        damage =  GameObject.FindWithTag("Boss").GetComponent<Boss>().damage;
-        Vector3 mousePosition = player.transform.position;
-        mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
-        Vector2 direction = new Vector2(mousePosition.x - transform.position.x, mousePosition.y - transform.position.y);
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        rb.rotation = angle;
-        direction.Normalize();
-        rb.velocity = direction * speed;
+        player = GameObject.FindGameObjectWithTag("Player");
+        rb.rotation = 2;
+        rb.velocity = (player.transform.position - transform.position).normalized * speed;
+    }
+
+    void Update()
+    {
+        rb.rotation += 4;
     }
 
     // Update is called once per frame
