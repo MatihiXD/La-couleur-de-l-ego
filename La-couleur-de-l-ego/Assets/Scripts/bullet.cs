@@ -5,14 +5,16 @@ using UnityEngine;
 public class bullet : MonoBehaviour
 {
     public float speed = 2f;
-    public int damage = 40;
     public Rigidbody2D rb;
+    public int damage = 100;
+    public GameObject player;
     public GameObject ExplosionPrefab;
     // Start is called before the first frame update
 
     //set the bullet's direction and angle to the mouse cursor's position
     void Start()
     {
+        damage = GameObject.FindWithTag("Player").GetComponent<Player>().damage;
         Vector3 mousePosition = Input.mousePosition;
         mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
         Vector2 direction = new Vector2(mousePosition.x - transform.position.x, mousePosition.y - transform.position.y);
@@ -21,7 +23,7 @@ public class bullet : MonoBehaviour
         direction.Normalize();
         rb.velocity = direction * speed;
     }
-    void OnTriggerEnter2D(Collider2D hitInfo)
+    public void OnTriggerEnter2D(Collider2D hitInfo)
     {
         Ennemy enemy = hitInfo.GetComponent<Ennemy>();
         if (enemy != null)
