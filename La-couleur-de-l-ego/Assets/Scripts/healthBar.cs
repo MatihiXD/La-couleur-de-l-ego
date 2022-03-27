@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class healthBar : MonoBehaviour
 {
     private static Image HealthBarImage;
-    public int maxHp = 0;
+    public float maxHp = 0;
+    public float hp;
     public void Start()
     {
         HealthBarImage = GetComponent<Image>();
@@ -15,13 +16,17 @@ public class healthBar : MonoBehaviour
 
     public void Update()
     {
+        if (GameObject.FindWithTag("Boss").GetComponent<Boss>().IsFighting == false){
+            hp = 0;
+        } else
+            hp = GameObject.FindWithTag("Boss").GetComponent<Boss>().life;
         SetHealthBarValue();
     }
 
     public void SetHealthBarValue()
     {
-        int hp = GameObject.FindWithTag("Boss").GetComponent<Boss>().life;
         float value = hp / maxHp;
+        Debug.Log(value);
         HealthBarImage.fillAmount = value;
     }
 }
