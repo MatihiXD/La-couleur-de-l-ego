@@ -10,7 +10,8 @@ public class BossFight : MonoBehaviour
     {
         if (collider.gameObject.tag == "Player")
         {
-            boss.GetComponent<Boss>().IsFighting = true;
+            if (boss != null)
+                boss.GetComponent<Boss>().IsFighting = true;
         }
     }
 }

@@ -23,7 +23,6 @@ public class UnzoomCamera : MonoBehaviour
     }
 
     private void Update() {
-        Debug.Log(Camera.main.orthographicSize);
         if (val == 1) {
             if (playerCanva.transform.localScale.x < base_hp_pos.x * 2)
                 playerCanva.transform.localScale += new Vector3(0.00005f, 0.00005f, 0f);
