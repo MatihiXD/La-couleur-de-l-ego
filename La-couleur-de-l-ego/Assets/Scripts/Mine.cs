@@ -22,6 +22,7 @@ public class Mine : MonoBehaviour
         float y = transform.position.y;
         Vector3 pos = new Vector3(x, y, -8f);
         Instantiate(BoomEvent, pos, transform.rotation);
-        Destroy(gameObject);
+        if (hitInfo.GetComponent<FollowAreaBigFish>() == null)
+            Destroy(gameObject);
     }
 }
