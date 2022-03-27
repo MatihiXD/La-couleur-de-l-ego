@@ -35,6 +35,11 @@ public class bullet : MonoBehaviour
         {
             bigFish.TakeDamage(damage);
         }
+        Boss boss = hitInfo.GetComponent<Boss>();
+        if (boss != null)
+        {
+            boss.TakeDamage(damage);
+        }
         if (hitInfo.GetComponent<Player>() == null && hitInfo.GetComponent<FollowAreaBigFish>() == null && hitInfo.GetComponent<BossFight>() == null) {
             Instantiate(ExplosionPrefab, transform.position, transform.rotation);
             Destroy(gameObject);
