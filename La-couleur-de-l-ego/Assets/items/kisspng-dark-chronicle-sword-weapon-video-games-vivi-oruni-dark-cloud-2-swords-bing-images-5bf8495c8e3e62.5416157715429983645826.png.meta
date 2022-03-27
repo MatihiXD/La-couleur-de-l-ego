@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: d908e46614f04b4059119e552e969346
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kisspng-dark-chronicle-sword-weapon-video-games-vivi-oruni-dark-cloud-2-swords-bing-images-5bf8495c8e3e62.5416157715429983645826_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 142
+        width: 127
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943e6be270df5403da862dcd0077821c
+      internalID: 1136631163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-dark-chronicle-sword-weapon-video-games-vivi-oruni-dark-cloud-2-swords-bing-images-5bf8495c8e3e62.5416157715429983645826_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 143
+        width: 56
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c86d18560b0fa74e90937807a6716a8
+      internalID: 631835292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-dark-chronicle-sword-weapon-video-games-vivi-oruni-dark-cloud-2-swords-bing-images-5bf8495c8e3e62.5416157715429983645826_2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 143
+        width: 66
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c69893077a146068230229baab5731
+      internalID: 169653929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-dark-chronicle-sword-weapon-video-games-vivi-oruni-dark-cloud-2-swords-bing-images-5bf8495c8e3e62.5416157715429983645826_3
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 142
+        width: 65
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53edde16f5f8c9a68803fb9f67d61a74
+      internalID: -1873304848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-dark-chronicle-sword-weapon-video-games-vivi-oruni-dark-cloud-2-swords-bing-images-5bf8495c8e3e62.5416157715429983645826_4
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 143
+        width: 100
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf02b84ff79ad6cc90c5e6cb2fc36a8
+      internalID: -552942923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-dark-chronicle-sword-weapon-video-games-vivi-oruni-dark-cloud-2-swords-bing-images-5bf8495c8e3e62.5416157715429983645826_5
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 143
+        width: 81
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a517725f751000438adf08aeb2418c3
+      internalID: -1878123733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-dark-chronicle-sword-weapon-video-games-vivi-oruni-dark-cloud-2-swords-bing-images-5bf8495c8e3e62.5416157715429983645826_6
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 141
+        width: 84
+        height: 285
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29281b6d6deda569c91d3504adff1f67
+      internalID: -55129334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-dark-chronicle-sword-weapon-video-games-vivi-oruni-dark-cloud-2-swords-bing-images-5bf8495c8e3e62.5416157715429983645826_7
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 143
+        width: 111
+        height: 322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4864e0c2db182ec6c8061e2b566571b4
+      internalID: -1927462464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-dark-chronicle-sword-weapon-video-games-vivi-oruni-dark-cloud-2-swords-bing-images-5bf8495c8e3e62.5416157715429983645826_8
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 143
+        width: 97
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e303751f9784ed6fad6ab4d36dafe52
+      internalID: 1321396886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kisspng-dark-chronicle-sword-weapon-video-games-vivi-oruni-dark-cloud-2-swords-bing-images-5bf8495c8e3e62.5416157715429983645826_9
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 143
+        width: 73
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01eee08a1fc5f91e8b08d46e72da19eb
+      internalID: -615355082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      kisspng-dark-chronicle-sword-weapon-video-games-vivi-oruni-dark-cloud-2-swords-bing-images-5bf8495c8e3e62.5416157715429983645826_6: -55129334
+      kisspng-dark-chronicle-sword-weapon-video-games-vivi-oruni-dark-cloud-2-swords-bing-images-5bf8495c8e3e62.5416157715429983645826_3: -1873304848
+      kisspng-dark-chronicle-sword-weapon-video-games-vivi-oruni-dark-cloud-2-swords-bing-images-5bf8495c8e3e62.5416157715429983645826_2: 169653929
+      kisspng-dark-chronicle-sword-weapon-video-games-vivi-oruni-dark-cloud-2-swords-bing-images-5bf8495c8e3e62.5416157715429983645826_0: 1136631163
+      kisspng-dark-chronicle-sword-weapon-video-games-vivi-oruni-dark-cloud-2-swords-bing-images-5bf8495c8e3e62.5416157715429983645826_8: 1321396886
+      kisspng-dark-chronicle-sword-weapon-video-games-vivi-oruni-dark-cloud-2-swords-bing-images-5bf8495c8e3e62.5416157715429983645826_5: -1878123733
+      kisspng-dark-chronicle-sword-weapon-video-games-vivi-oruni-dark-cloud-2-swords-bing-images-5bf8495c8e3e62.5416157715429983645826_9: -615355082
+      kisspng-dark-chronicle-sword-weapon-video-games-vivi-oruni-dark-cloud-2-swords-bing-images-5bf8495c8e3e62.5416157715429983645826_4: -552942923
+      kisspng-dark-chronicle-sword-weapon-video-games-vivi-oruni-dark-cloud-2-swords-bing-images-5bf8495c8e3e62.5416157715429983645826_1: 631835292
+      kisspng-dark-chronicle-sword-weapon-video-games-vivi-oruni-dark-cloud-2-swords-bing-images-5bf8495c8e3e62.5416157715429983645826_7: -1927462464
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
