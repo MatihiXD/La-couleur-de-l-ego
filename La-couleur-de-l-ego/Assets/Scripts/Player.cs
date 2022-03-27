@@ -19,7 +19,6 @@ public class Player : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("You died");
         SceneManager.LoadScene("Scenes/Endscreen");
     }
 }

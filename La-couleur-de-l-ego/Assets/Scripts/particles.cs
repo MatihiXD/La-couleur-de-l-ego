@@ -19,7 +19,6 @@ public class particles : MonoBehaviour
     {
         health = GameObject.FindWithTag("Player").GetComponent<Player>().health;
         if (health <= 50) {
-            Debug.Log("injured");
             ParticleSystem.MainModule settings = GetComponent<ParticleSystem>().main;
             settings.startColor = new ParticleSystem.MinMaxGradient( Color.red );
         }   else {
