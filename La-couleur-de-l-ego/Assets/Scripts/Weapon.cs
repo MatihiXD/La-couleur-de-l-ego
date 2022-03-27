@@ -7,19 +7,32 @@ public class Weapon : MonoBehaviour
     public Transform firePoint;
     public GameObject bulletPrefab;
 
-    // Update is called once per frame
+    public float fireRate = 0.5f;
+
+    public bool isFiring = true;
+    // Start is called before the first frame update
+
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetMouseButtonDown(0))
         {
-            Shoot();
+            OnCLick();
+        }
+    }
+    public void OnCLick()
+    {
+        if (isFiring == true)
+        {
+            StartCoroutine(shoot());
         }
     }
 
-
-    //wait for 0.2 seconds and then shoot
-    public void Shoot()
+    // Update is called once per frame
+    public IEnumerator shoot()
     {
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        isFiring = false;
+        yield return new WaitForSeconds(fireRate);
+        isFiring = true;
     }
 }
